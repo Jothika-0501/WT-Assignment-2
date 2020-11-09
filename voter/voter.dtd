@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT candidate (voter+)>
+<!ELEMENT voter (name,gender,dept,year,phno,email)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT dept (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT phno (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST voter vid ID #REQUIRED>

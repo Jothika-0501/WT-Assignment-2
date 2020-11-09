@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+ color : black;
+ }
+h4 {
+color: rgb(102, 255, 0);
+}
+</style>
+</head>
+<body>
+
+<h3>Use the XMLHttpRequest to get the content of a file.</h3>
+
+<p>The content is written in JSON format, and can easily be converted into a JavaScript object.</p>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+
+<script>
+var  i, x = "";
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    var myObj = JSON.parse(this.responseText);
+    for (i in myObj.voter) {
+  x += "<h4>" + myObj.voter[i].name + "</h4>";
+}
+document.getElementById("demo").innerHTML = x;
+var text = JSON.stringify(myObj, function (key, value) {
+  if (key == "dept") {
+    return value.toUpperCase();
+  } else {
+    return value;
+  }
+});
+document.getElementById("demo1").innerHTML = text;
+  }
+};
+xmlhttp.open("GET", "voter.txt", true);
+xmlhttp.send();
+
+</script>
+</body>
+</html>

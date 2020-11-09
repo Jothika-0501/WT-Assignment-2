@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<candidate>
+<voter vid="10224">
+  <name>Rahul</name>
+  <gender>Male</gender>
+  <dept> IT </dept>
+  <year> 2 </year>
+  <phno> 9851463775 </phno>
+  <email> rahulkanna@gmail.com </email>
+</voter>
+<voter vid="10235">
+  <name>Prasanna</name>
+  <gender>Male</gender>
+  <dept> IT </dept>
+  <year> 3 </year>
+  <phno> 9751698775 </phno>
+  <email> prasannareddy@gmail.com </email>
+</voter>
+<voter vid="10243">
+  <name>Preethi</name>
+  <gender>Female</gender>
+  <dept> IT </dept>
+  <year> 4 </year>
+  <phno> 8851553775 </phno>
+  <email> preethi@gmail.com </email>
+</voter>
+<voter vid="10249">
+  <name>Shruthi</name>
+  <gender>Female</gender>
+  <dept> IT </dept>
+  <year> 2 </year>
+  <phno> 9348563775 </phno>
+  <email> shruthiv@gmail.com </email>
+</voter>
+<voter vid="10256">
+  <name>Pranav</name>
+  <gender>Male</gender>
+  <dept> IT </dept>
+  <year> 3 </year>
+  <phno> 9365428745 </phno>
+  <email> pranav@gmail.com </email>
+</voter>
+<voter vid="10262">
+  <name>Priyanka</name>
+  <gender>Female</gender>
+  <dept> IT </dept>
+  <year> 4 </year>
+  <phno> 9154789655 </phno>
+  <email> priyankamsp@gmail.com </email>
+</voter>
+
+</candidate>

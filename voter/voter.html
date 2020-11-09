@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  background-image: url('bg.jpeg');
+}
+body {
+  color: black;
+  background-color : rgb(240, 221, 221);
+}
+
+h1 {
+  color: rgb(128, 0, 0);
+}
+
+h5 {
+  color : rgb(0, 217, 255);
+}
+</style>
+</head>
+<body>
+<div>
+<h1> Voter File for DOM </h1>
+<h5>Name:</h5> <p id="demo"></p>
+<h5>Gender:</h5> <p id ="demo1"></p>
+<h5>Department:</h5> <p id="demo2"></p>
+<h5>Year: </h5> <p id = "demo3"></p>
+</div>
+
+<script>
+var text, parser, xmlDoc;
+var text1 = "";
+
+text = "<candidate><voter>" +
+  "<name>Rahul</name>" +
+  "<gender>Male</gender>" +
+  "<dept> IT </dept>" + 
+  "<year> 2 </year>" +
+"</voter>" + 
+"<voter>"+
+    "<name>Prasanna</name>" +
+  "<gender>Male</gender>" +
+  "<dept> IT </dept>" + 
+  "<year> 3 </year>" +
+"</voter>"+
+"<voter>"+
+    "<name>Preethi</name>" +
+  "<gender>Female</gender>" +
+  "<dept> IT </dept>" + 
+  "<year> 4 </year>" +
+"</voter>"+
+"<voter>"+
+    "<name>Shruthi</name>" +
+  "<gender>Female</gender>" +
+  "<dept> IT </dept>" + 
+  "<year> 2 </year>" +
+"</voter>"+
+"<voter>"+
+    "<name>Pranav</name>" +
+  "<gender>Male</gender>" +
+  "<dept> IT </dept>" + 
+  "<year> 3 </year>" +
+"</voter>"+
+"<voter>"+
+    "<name>Priyanka</name>" +
+  "<gender>Female</gender>" +
+  "<dept> IT </dept>" + 
+  "<year> 4 </year>" +
+"</voter></candidate>";
+
+parser = new DOMParser();
+xmlDoc = parser.parseFromString(text,"text/xml");
+
+document.getElementById("demo").innerHTML =
+xmlDoc.getElementsByTagName("name")[5].childNodes[0].nodeValue;
+document.getElementById("demo1").innerHTML =
+xmlDoc.getElementsByTagName("gender")[5].childNodes[0].nodeValue;
+document.getElementById("demo2").innerHTML =
+xmlDoc.getElementsByTagName("dept")[5].childNodes[0].nodeValue;
+text1 = text1 + xmlDoc.getElementsByTagName("year")[0].childNodes[0].nodeValue + "<br>" +
+xmlDoc.getElementsByTagName("year")[1].childNodes[0].nodeValue + "<br>" +
+xmlDoc.getElementsByTagName("year")[2].childNodes[0].nodeValue + "<br>"; 
+
+document.getElementById("demo3").innerHTML = text1;
+
+</script>
+
+</body>
+</html>

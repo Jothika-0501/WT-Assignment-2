@@ -1,0 +1,43 @@
+{
+    "candidate": {
+      "cand": [
+        {
+          "@cid": "66489",
+          "name": "Raxxelyn Jenneyl L",
+          "gender": "Female ",
+          "dept": "IT ",
+          "year": "4 ",
+          "category": "General Secretary " ,
+          "votes": "80"
+          
+        },
+        {   
+            "@cid": "49284",
+            "name": "Balaji v",
+            "gender": "Male",
+            "dept": "IT ",
+            "year": "4",
+            "category": "General Secretary" ,
+            "votes": "75"
+        },
+        {   
+            "@cid": "28395",
+            "name": "Rakshana N",
+            "gender": "Female",
+            "dept": "IT",
+            "year": "3",
+            "category": "Joint treasurer " ,
+            "votes": "90 "
+        },
+        {   
+            "@cid": "10174",
+            "name": "Kiranya R",
+            "gender": "Female",
+            "dept": "IT",
+            "year": "3",
+            "category": "Joint treasurer" ,
+            "votes": "95"
+        }
+      ]
+    }
+  }

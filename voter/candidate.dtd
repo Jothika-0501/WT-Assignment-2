@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT candidate (cand+)>
+<!ELEMENT cand (name,gender,dept,year,category,votes)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT dept (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT votes (#PCDATA)>
+<!ATTLIST voter cid ID #REQUIRED>

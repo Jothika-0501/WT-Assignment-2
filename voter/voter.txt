@@ -1,0 +1,10 @@
+{
+"voter": [
+      { "name": "Rahul","gender": "Male","dept": "IT" ,"year":"2", "phno":"9851463775" , "email":"rahulkanna@gmail.com" },
+      { "name": "Prasanna","gender": "Male","dept": "IT" ,"year":"3", "phno":"9751698775" , "email":"prasannareddy@gmail.com" },
+      { "name": "Preethi","gender": "Female","dept": "IT" ,"year":"4", "phno":"8851553775" , "email":"preethi@gmail.com" },
+      { "name": "Shruthi","gender": "Female","dept": "IT" ,"year":"2", "phno":"9348563775" , "email":"shruthiv@gmail.com" },
+      { "name": "Pranav","gender": "Male","dept": "IT" ,"year":"3", "phno":"9365428745" , "email":"pranav@gmail.com" },
+      { "name": "Priyanka","gender": "Female","dept": "IT" ,"year":"4", "phno":"9154789655" , "email":"priyankamsp@gmail.com" }
+    ]
+}

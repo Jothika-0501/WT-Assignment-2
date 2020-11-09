@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="candidate.xsl" type="text/xsl" ?>
+<candidate>
+<cand cid="66489">
+  <name>Raxxelyn Jenneyl L</name>
+  <gender>Female</gender>
+  <dept>IT</dept>
+  <year>4</year>
+  <category>General Secretary</category>
+  <votes>80</votes>
+  
+</cand>
+<cand cid="49284">
+  <name>Balaji V</name>
+  <gender>Male</gender>
+  <dept>IT</dept>
+  <year>4</year>
+  <category>General Secretary</category>
+  <votes>75</votes>
+  
+</cand>
+<cand cid="28395">
+  <name>Rakshana N</name>
+  <gender>Female</gender>
+  <dept>IT</dept>
+  <year>3</year>
+  <category>Joint treasurer</category>
+  <votes>90</votes>
+  
+</cand>
+<cand cid="10174">
+  <name>Kiranya R</name>
+  <gender>Female</gender>
+  <dept>IT</dept>
+  <year>3</year>
+  <category>Joint treasurer</category>
+  <votes>95</votes>
+  
+</cand>
+</candidate>
